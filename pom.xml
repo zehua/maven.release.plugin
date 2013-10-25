@@ -34,18 +34,19 @@
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 				</configuration>
-<!-- 				<dependencies> -->
-<!-- 					<dependency> -->
-<!-- 						<groupId>org.apache.maven.scm</groupId> -->
-<!-- 						<artifactId>maven-scm-api</artifactId> -->
-<!-- 						<version>1.8.1</version> -->
-<!-- 					</dependency> -->
-<!-- 					<dependency> -->
-<!-- 						<groupId>org.apache.maven.scm</groupId> -->
-<!-- 						<artifactId>maven-scm-provider-gitexe</artifactId> -->
-<!-- 						<version>1.8.1</version> -->
-<!-- 					</dependency> -->
-<!-- 				</dependencies> -->
+				<!-- enable and disable the dependencies in order to make the release plugin work -->
+				<dependencies>
+					<dependency>
+						<groupId>org.apache.maven.scm</groupId>
+						<artifactId>maven-scm-api</artifactId>
+						<version>1.8.1</version>
+					</dependency>
+					<dependency>
+						<groupId>org.apache.maven.scm</groupId>
+						<artifactId>maven-scm-provider-gitexe</artifactId>
+						<version>1.8.1</version>
+					</dependency>
+				</dependencies>
 			</plugin>
 		</plugins>
 	</build>
