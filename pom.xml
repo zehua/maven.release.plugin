@@ -9,7 +9,7 @@
 
 	<groupId>de.xlabiq.sample.test</groupId>
 	<artifactId>maven.release.plugin</artifactId>
-	<version>0.0.4-SNAPSHOT</version>
+	<version>0.0.4</version>
 	<packaging>jar</packaging>
 
 	<name>maven.release.plugin</name>
