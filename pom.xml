@@ -35,6 +35,7 @@
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 				</configuration>
 				<!-- enable and disable the dependencies in order to make the release plugin work -->
+				<!--
 				<dependencies>
 					<dependency>
 						<groupId>org.apache.maven.scm</groupId>
@@ -47,6 +48,7 @@
 						<version>1.8.1</version>
 					</dependency>
 				</dependencies>
+				-->
 			</plugin>
 		</plugins>
 	</build>
