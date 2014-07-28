@@ -9,7 +9,7 @@
 
 	<groupId>de.xlabiq.sample.test</groupId>
 	<artifactId>maven.release.plugin</artifactId>
-	<version>0.0.5-SNAPSHOT</version>
+	<version>0.0.5</version>
 	<packaging>jar</packaging>
 
 	<name>maven.release.plugin</name>
@@ -69,7 +69,7 @@
 		<developerConnection>scm:git:file://${mypath}/maven.release.plugin</developerConnection>
 		<connection>scm:git:file://${mypath}/maven.release.plugin</connection>
 		<url>https://github.com/duderoot/test-maven-release-plugin</url>
-		<tag>v0.0.1</tag>
+		<tag>v0.0.5</tag>
 	</scm>
 	<distributionManagement>
 		<repository>
